@@ -1,0 +1,21 @@
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #141414;
+    min-width: 400px;
+}
+
+body {
+    background-color: #212121;
+    font-family: 'Future' 'comic Sans';
+    padding: 1px;
+  }
+
+footer {
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    right: 0;
+}

@@ -1,0 +1,31 @@
+.contactos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.logos{
+    list-style: none;
+}
+
+.logos li {
+    display: inline-block;
+}
+
+
+
+.img-area {
+position:relative
+}
+
+
+img {
+    width: 30px;
+}
+
+img:hover {
+    background-color: #8DC3F2;
+    border-radius: 100%;
+    transition: all 0.2s;
+}

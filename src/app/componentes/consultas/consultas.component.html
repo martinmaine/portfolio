@@ -1,0 +1,36 @@
+<body>
+
+<div class="formulario"> 
+
+    <form [formGroup]="consultaForm" (ngSubmit)="enviarConsulta()" class="form" action="" method="post"> 
+
+        <label for="nombre" class="form-label"> Nombre </label> <input type="text" formControlName="nombre" id="nombre" name="nombre" required> 
+
+        <label for="apellido" class="form-label"> Apellido </label>
+        <input type="text" formControlName="apellido" id="apellido" name="apellido" required> 
+
+        <label for="email" class="form-label"> E-mail </label>
+        <input type="text" formControlName="email" id="email" name="email" required> 
+
+        <label for="empresa" class="form-label"> Empresa </label>
+        <input type="text" formControlName= "empresa" id="empresa" name="empresa"> 
+
+        <label for="puesto" class="form-label"> Puesto Requerido </label>
+        <select type="text" formControlName="puesto" name="puesto" id="puesto"> 
+            <option> Full Stack </option>
+            <option> Front End </option>
+            <option> Back End </option>
+        </select>
+
+        <label for="mensaje" class="form-label"> Mensaje </label>
+        <textarea id="mensaje" formControlName="mensaje" name="mensaje" required> </textarea>
+
+        <br>
+        <button type="submit"> ENVIAR </button>
+
+    </form>
+
+<br>
+</div>
+
+</body>
