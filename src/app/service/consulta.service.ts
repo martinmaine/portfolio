@@ -9,11 +9,11 @@ import { Consultas } from '../models/consultas';
 })
 export class ConsultaService {
 
-  //URL: string = 'http://localhost:3000';
+//URL: string = 'http://localhost:3000/api';
 
-  URL: string= 'https://app-portfolio-ng.herokuapp.com/api/'
+  //URL= 'https://app-portfolio-ng.herokuapp.com/api'
 
-//URL= environment.URL; 
+URL= environment.URL; 
  
 
   constructor(private http: HttpClient) { }

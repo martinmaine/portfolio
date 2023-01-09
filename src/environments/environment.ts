@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  URL: 'https://app-portfolio-ng.herokuapp.com/api/'
+  production: true,
+  URL: 'https://app-portfolio-ng.herokuapp.com/api'
 };
 
 /*
