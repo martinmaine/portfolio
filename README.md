@@ -1,27 +1,23 @@
-# Porfolio
+# Proyecto Final - Programación Web Avanzada UTN BA.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+Alumno: Martín Maine 
 
-## Development server
+El proyecto fue realizado con Angular, utilizando node js para el desarrollo del back end. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La página principal está dividida en dos partes, a la izquierda cuenta con breve descripciones de las herramientas y lenguajes aprendidos en la diplomatura. 
+A la derecha, hay tres cubos que reproducen aleatoreamente códigos en cada una de sus caras. Los cubos interactuan con el usuario cuando este realiza el scroll, mientras se va descrubiendo el contenido de la parte izquierda. 
 
-## Code scaffolding
+El principal desafío que se presentó, fue lograr el funcionamiento de los componentes Javascript que permitían la animación de los cubos (realizados por mi en formato de video con las herramientas Affter Effect y Adobe Premiere) dentro del controlador "Home".
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La página de contato, cuenta con un formulario donde el usuario debe colocar sus datos y el mensaje que desee enviar. Los datos se almacenan en Mongo Atlas de MongoDB.
 
-## Build
+La página cuenta con un formato resposive, lo que permite mayor facilidad en la navegación. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+El footer tiene un formato no invasivo, casi imperceptible, con íconos realizados en formato svg en Adobe Illustrator. 
 
-## Running unit tests
+El deploy se realizó en diferentes hosting.
+Para el back end se utilizó Heroku: https://app-portfolio-ng.herokuapp.com/api
+Y la base de datos utilizada fue MongoDb. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para el front end, se creó un repositorio en Github https://martinmaine.github.io/portfolio, realizando el deploy definitivo en firebase https://portfolio-maine.web.app/. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
